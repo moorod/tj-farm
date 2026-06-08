@@ -22,6 +22,8 @@
         }
         .container { max-width: 640px; margin: 0 auto; padding: 120px 24px 80px; position: relative; }
         .label { font-size: 12px; letter-spacing: 3px; color: #8a7e6b; margin-bottom: 40px; }
+        .logo-wrap { text-align: center; margin-bottom: 40px; }
+        .logo-wrap img { width: 200px; height: 200px; border-radius: 50%; box-shadow: 0 0 40px rgba(245,230,200,0.15); }
         h1 { font-size: 32px; font-weight: 300; letter-spacing: 1px; margin-bottom: 12px; color: #f0e8d8; }
         .sub { font-size: 14px; color: #8a7e6b; font-style: italic; margin-bottom: 60px; }
         .divider { width: 40px; height: 1px; background: #5a4e3b; margin: 40px 0; }
@@ -30,6 +32,23 @@
         .signature { margin-top: 60px; font-style: italic; font-size: 14px; color: #8a7e6b; }
         .contract { margin-top: 80px; padding: 20px; border: 1px solid #2a2a3a; border-radius: 8px; font-size: 12px; word-break: break-all; color: #6a6a7a; }
         .contract span { color: #8a7e6b; }
+        .buy-btn { display: inline-block; margin-top: 12px; padding: 10px 28px; border: 1px solid #3a8a5a; border-radius: 24px; color: #7ac89a; text-decoration: none; font-size: 14px; transition: all 0.3s; }
+        .buy-btn:hover { background: #1a2a1a; border-color: #5ac87a; color: #a0e8b0; }
+        .links { margin-top: 16px; }
+        .links a { color: #6a7a9a; font-size: 13px; text-decoration: none; margin-right: 16px; }
+        .links a:hover { color: #8a9aba; }
+        .scam-link { margin-top: 40px; font-size: 13px; }
+        .scam-link a { color: #6a5a4a; text-decoration: none; }
+        .scam-link a:hover { color: #8a7a5a; }
+        
+        .post {
+            margin-top: 60px; padding: 24px; border: 1px solid #2a2a3a; border-radius: 12px;
+        }
+        .post h2 { font-size: 20px; font-weight: 300; color: #f0e8d8; margin-bottom: 16px; }
+        .post .meta { font-size: 12px; color: #5a4e3b; margin-bottom: 12px; }
+        .post .content { font-size: 14px; color: #b0a590; }
+        .post .content p { margin-bottom: 12px; }
+        
         @media (max-width: 600px) { .moon { width: 80px; height: 80px; right: 30px; top: 30px; } }
     </style>
 </head>
@@ -39,22 +58,49 @@
     
     <div class="container">
         <div class="label">T J  ·  A  F A T H E R ' S  W I S H</div>
-        <div style="text-align:center;margin-bottom:40px;"><img src="logo.png" alt="TJ" style="width:200px;height:200px;border-radius:50%;box-shadow:0 0 40px rgba(245,230,200,0.15);"></div>
+        
+        <div class="logo-wrap">
+            <img src="logo.png" alt="TJ">
+        </div>
+        
         <h1>Born from a simple dream</h1>
         <div class="sub">Freedom, peace, and a better future for our children.</div>
         
         <div class="divider"></div>
         
-        <p>TJ was created by an ordinary father.</p>
+        <p>TJ was created by a father from a village in China.</p>
         <p>A man who failed many times, lost money, changed directions, and still refused to give up.</p>
         <p>After years of noise, he realized that true wealth is simple:</p>
         <p class="highlight">Family. Freedom. Peace. Watching the moon over the sea with the people you love.</p>
         
         <div class="divider"></div>
         
-        <p>TJ is not about becoming rich overnight.</p>
-        <p>It is about <span class="highlight">remembering why we started</span>.</p>
+        <p class="highlight">$TJ = Tristan (10) + Jenny (3)</p>
+        <p>My son and daughter. The reason I started. The reason I continue.</p>
+        
+        <p>TJ is not about becoming rich overnight. It is about <span class="highlight">remembering why we started</span>.</p>
         <p>A father's wish — freedom and happiness for TJ.</p>
+        
+        <div class="buy-btn-wrap" style="text-align:center;margin:40px 0;">
+            <a class="buy-btn" href="https://jup.ag/swap/SOL-9BDmEU45z3UQCQoM2TE3to55sdaeJob29ncL4HzW625Q" target="_blank">Buy $TJ on Jupiter</a>
+        </div>
+        <div class="links" style="text-align:center;">
+            <a href="https://pump.fun/coin/9BDmEU45z3UQCQoM2TE3to55sdaeJob29ncL4HzW625Q" target="_blank">pump.fun</a>
+            <a href="scam.html">The $3 Story</a>
+        </div>
+        
+        <div class="post">
+            <h2>A father from China</h2>
+            <div class="meta">June 8, 2026 · TJ Day 1</div>
+            <div class="content">
+                <p>I am Cooper. I live in a village in China. I never imagined I would create a cryptocurrency.</p>
+                <p>My son Tristan is 10. My daughter Jenny is 3. In China, it is not easy to give children the freedom and happiness they deserve. But I try, every single day.</p>
+                <p>I created $TJ as my promise to them. One day, I want to watch the moon over the sea with them, free.</p>
+                <p>On the first day, a scammer asked me for $8 and 1.1M tokens. I sent $3. He disappeared. I am still here.</p>
+                <p>If this touches your heart, buy $TJ. Not for profit. For the story. For the dream.</p>
+                <p style="margin-top:16px;"><a href="scam.html" style="color:#6a5a4a;font-size:13px;">Read the full $3 story →</a></p>
+            </div>
+        </div>
         
         <div class="signature">
             — A father, on Solana<br>
@@ -62,9 +108,14 @@
         </div>
         
         <div class="contract">
-            <span>TJ Token</span><br>
+            <span>TJ Token (Tristan & Jenny)</span><br>
             9BDmEU45z3UQCQoM2TE3to55sdaeJob29ncL4HzW625Q<br><br>
-            <span>Created with love, not with hype.</span><br><br><a href="https://jup.ag/swap/SOL-9BDmEU45z3UQCQoM2TE3to55sdaeJob29ncL4HzW625Q" style="color:#f0e8d8;border:1px solid #5a4e3b;padding:8px 24px;border-radius:20px;text-decoration:none;font-size:14px;">Buy $TJ on Jupiter</a><br><br><a href="https://pump.fun/coin/9BDmEU45z3UQCQoM2TE3to55sdaeJob29ncL4HzW625Q" style="color:#8a7e6b;font-size:12px;text-decoration:none;">pump.fun</a>
+            <span>Solana · pump.fun · mint authority burned</span><br>
+            <span style="font-size:11px;">0.05% creator holding · 100% transparent · 0% rug</span>
+        </div>
+        
+        <div class="scam-link">
+            <a href="scam.html">📖 The $3 Story — how a scammer taught me a lesson on Day 1</a>
         </div>
     </div>
 </body>
